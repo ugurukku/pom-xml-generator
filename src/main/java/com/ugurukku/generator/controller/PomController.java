@@ -22,7 +22,6 @@ public class PomController {
     @PostMapping("/pom")
     public ResponseEntity<Object> generatePom(@RequestBody @Valid PomRequest pomRequest) {
         generatorService.generatePom(pomRequest);
-
         return ResponseEntity.created(URI.create("/api/files/pom.xml")).build();
     }
 

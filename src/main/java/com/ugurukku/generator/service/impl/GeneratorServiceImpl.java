@@ -1,7 +1,7 @@
 package com.ugurukku.generator.service.impl;
 
 import com.ugurukku.generator.dto.PomRequest;
-import com.ugurukku.generator.entity.Repo;
+import com.ugurukku.generator.repository.Repo;
 import com.ugurukku.generator.service.GeneratorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

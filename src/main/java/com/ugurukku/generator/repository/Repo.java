@@ -1,9 +1,7 @@
-package com.ugurukku.generator.entity;
+package com.ugurukku.generator.repository;
 
 import lombok.Data;
 import org.springframework.stereotype.Repository;
-
-import java.security.PublicKey;
 import java.util.Map;
 
 @Repository
